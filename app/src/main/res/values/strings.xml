@@ -6,4 +6,5 @@
     <string name="select_play_text">Selecionar jogada</string>
     <string name="result_text">Resultado</string>
     <string name="winner_text">O jogador XXX ganhou</string>
+    <string name="action_bar_home">Início</string>
 </resources>
