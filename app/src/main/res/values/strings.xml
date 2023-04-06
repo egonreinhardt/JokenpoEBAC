@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jokenpo</string>
+    <string name="welcome_text">Bem vindo ao\nJokenpo</string>
+    <string name="button_title">Iniciar</string>
+    <string name="player_name">Jogador 1</string>
+    <string name="select_play_text">Selecionar jogada</string>
+    <string name="result_text">Resultado</string>
+    <string name="winner_text">O jogador XXX ganhou</string>
+</resources>
