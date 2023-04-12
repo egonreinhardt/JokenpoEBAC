@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--Menu da esquerda que abre ao clicar no ícone sanduíche-->
+
+    <!--Leva à tela Jogador (Tela 02)-->
+    <item
+        android:id="@+id/drawer_player"
+        android:title="@string/player_name"/>
+
+    <!--Leva à tela Jogador (Tela 02)-->
+    <item
+        android:id="@+id/drawer_result"
+        android:title="@string/result_text"/>
+</menu>
