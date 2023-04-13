@@ -61,6 +61,22 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="?attr/colorPrimary"
+            android:layoutDirection="ltr"
+            app:itemHorizontalTranslationEnabled="false"
+            app:itemPaddingBottom="20dp"
+            app:itemTextAppearanceActive="@style/TextAppearance.Material3.BodyLarge"
+            app:itemTextAppearanceInactive="@style/TextAppearance.Material3.BodyLarge"
+            app:itemTextColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_nav_menu" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
